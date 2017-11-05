@@ -1,0 +1,8 @@
+C:\Repos\AdventOfCode2016\1\bin\Debug\netcoreapp1.1\1.deps.json
+C:\Repos\AdventOfCode2016\1\bin\Debug\netcoreapp1.1\1.runtimeconfig.json
+C:\Repos\AdventOfCode2016\1\bin\Debug\netcoreapp1.1\1.runtimeconfig.dev.json
+C:\Repos\AdventOfCode2016\1\bin\Debug\netcoreapp1.1\1.dll
+C:\Repos\AdventOfCode2016\1\bin\Debug\netcoreapp1.1\1.pdb
+C:\Repos\AdventOfCode2016\1\obj\Debug\netcoreapp1.1\1.AssemblyInfo.cs
+C:\Repos\AdventOfCode2016\1\obj\Debug\netcoreapp1.1\1.dll
+C:\Repos\AdventOfCode2016\1\obj\Debug\netcoreapp1.1\1.pdb
