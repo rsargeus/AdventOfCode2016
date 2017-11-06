@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Repos\\AdventOfCode2016\\Day1\\Day1.csproj",
+      "projectUniqueName": "D:\\source\\AdventOfCode2016\\Day1\\Day1.csproj",
       "projectName": "Day1",
-      "projectPath": "c:\\Repos\\AdventOfCode2016\\Day1\\Day1.csproj",
+      "projectPath": "D:\\source\\AdventOfCode2016\\Day1\\Day1.csproj",
       "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "c:\\Repos\\AdventOfCode2016\\Day1\\obj\\",
+      "outputPath": "D:\\source\\AdventOfCode2016\\Day1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
