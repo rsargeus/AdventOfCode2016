@@ -40,7 +40,7 @@ matrix = [[1,2,3], [4,5,6], [7,8,9]]
 x = 1;
 y = 1;
 
-f = open(os.path.abspath("2\input.txt"), encoding='utf-8') 
+f = open(os.path.abspath("input.txt"), encoding='utf-8') 
 
 while True:
     

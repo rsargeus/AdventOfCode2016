@@ -1,8 +1,7 @@
 ﻿using System;
 
-namespace _1
+namespace Day1
 {
-    
     enum Direction
     {
         North = 0,
