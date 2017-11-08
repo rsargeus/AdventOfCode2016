@@ -1,70 +1,68 @@
 ﻿using System;
 using System.Linq;
+using System.IO;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace Day4
 {
-
     internal class Pair  
     {  
-        internal string character;  
-        internal int value;          
-
-        public override string ToString()
-        {
-            return character + " " + value;
-        }
-
+        internal char Character {get; set; }  
+        internal int Value {get; set;}   
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            List<Pair> pairs = new List<Pair>();
             
-            string s = "aaaaa-bbb-z-y-x-123[abxyz]";
+            //string s = "aaaaa-bbb-z-y-x-123[abxyz]";
             
-            int sectorId = int.Parse(Regex.Match(s, @"\d+").Value);
-            string passcode = Regex.Match(s, @"(?<=\[).+?(?=\])").Value;
+            int sum = 0;
+            foreach (string line in File.ReadLines(@"input.txt"))
+            {   
+                int sectorId;
+                if(IsRealRoom(line, out sectorId))
+                {
+                    sum += sectorId;
+                }  
+            }
+            
+            Console.WriteLine(sum);
+        }
 
-            Console.WriteLine(passcode);
+        static bool IsRealRoom(string encryptedName, out int sectorId)
+        {
+            List<Pair> pairs = new List<Pair>();
+
+            sectorId = int.Parse(Regex.Match(encryptedName, @"\d+").Value);
+            string checksum = Regex.Match(encryptedName, @"(?<=\[).+?(?=\])").Value;
 
             Regex rgx = new Regex(@"\[.*?\]|[\d-]");
-            s = rgx.Replace(s, "");
+            encryptedName = rgx.Replace(encryptedName, "");
             
-
-            Console.WriteLine(s);
-            
-            while(s != string.Empty)
-            {
+            while(encryptedName != string.Empty)
+            {    
+                string characterString = encryptedName.Substring(0,1);                
                 
-                string c = s.Substring(0,1);                
-                
-                int before = s.Length;
+                int before = encryptedName.Length;
 
-                s =  s.Replace(c.ToString(), string.Empty);
+                encryptedName =  encryptedName.Replace(characterString.ToString(), string.Empty);
 
-                int after = s.Length;
+                int after = encryptedName.Length;
 
                 int occurences = before - after;
                 
-                pairs.Add(new Pair(){ character = c, value  = occurences });
-                Console.WriteLine(c  + occurences);       
-
-
+                pairs.Add(new Pair(){ Character = characterString[0], Value  = occurences });       
             }         
 
-            pairs = pairs.OrderBy(v => v.character).ToList();
-            pairs = pairs.OrderByDescending(v => v.value).ToList();
+            pairs = pairs.OrderBy(v => v.Character).ToList();
+            pairs = pairs.OrderByDescending(v => v.Value).ToList();
+            char[] charArray = pairs.Select(q => q.Character).Take(5).ToArray();
 
+            return new string(charArray) == checksum;
 
-            foreach(Pair p in pairs)
-            {
-                Console.WriteLine(p);
-
-            }
         }
     }
 }

@@ -8,3 +8,13 @@ c:\Repos\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.AssemblyInfoInputs.c
 c:\Repos\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.AssemblyInfo.cs
 c:\Repos\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.dll
 c:\Repos\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.pdb
+C:\source\AdventOfCode2016\Day4\bin\Debug\netcoreapp2.0\Day4.deps.json
+C:\source\AdventOfCode2016\Day4\bin\Debug\netcoreapp2.0\Day4.runtimeconfig.json
+C:\source\AdventOfCode2016\Day4\bin\Debug\netcoreapp2.0\Day4.runtimeconfig.dev.json
+C:\source\AdventOfCode2016\Day4\bin\Debug\netcoreapp2.0\Day4.dll
+C:\source\AdventOfCode2016\Day4\bin\Debug\netcoreapp2.0\Day4.pdb
+C:\source\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.csproj.CoreCompileInputs.cache
+C:\source\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.AssemblyInfoInputs.cache
+C:\source\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.AssemblyInfo.cs
+C:\source\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.dll
+C:\source\AdventOfCode2016\Day4\obj\Debug\netcoreapp2.0\Day4.pdb

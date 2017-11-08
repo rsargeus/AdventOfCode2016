@@ -664,30 +664,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Users\\exrosa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\AdventOfCode2016\\Day4\\Day4.csproj",
+      "projectUniqueName": "c:\\source\\AdventOfCode2016\\Day4\\Day4.csproj",
       "projectName": "Day4",
-      "projectPath": "C:\\Repos\\AdventOfCode2016\\Day4\\Day4.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\AdventOfCode2016\\Day4\\obj\\",
+      "projectPath": "c:\\source\\AdventOfCode2016\\Day4\\Day4.csproj",
+      "packagesPath": "C:\\Users\\exrosa\\.nuget\\packages\\",
+      "outputPath": "c:\\source\\AdventOfCode2016\\Day4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\exrosa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
